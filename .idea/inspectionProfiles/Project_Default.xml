@@ -1,0 +1,28 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="PyPackageRequirementsInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredPackages">
+        <list>
+          <option value="dill" />
+          <option value="msgpack-numpy" />
+          <option value="msgpack-python" />
+          <option value="python" />
+          <option value="pytorch" />
+          <option value="spacy" />
+          <option value="tensorboard" />
+          <option value="tensorflow" />
+          <option value="terminado" />
+          <option value="tqdm" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyStubPackagesCompatibilityInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredStubPackages">
+        <list>
+          <option value="pandas-stubs~=3.0.0" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
