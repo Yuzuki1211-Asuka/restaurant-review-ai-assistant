@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS / IDE
+.DS_Store
+.vscode/
+.idea/
+
+# Large model files
+*.pth
+*.pt
+*.bin
+*.safetensors
+*.ckpt
+*.onnx
+
+# Large local model dirs
+models/
+Qwen2.5-3B-Instruct/
+autodl-tmp/
+huggingface/
+modelscope_cache/
+
+# Optional: if you do not want to upload sklearn models, uncomment
+# outputs/models/*.pkl
+
+# Streamlit cache
+.streamlit/secrets.toml
+
+# Logs
+*.log
